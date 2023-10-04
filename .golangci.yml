@@ -1,11 +1,10 @@
 linters:
-  disable:
-    - unused
   enable:
     - gci
     - gofumpt
     - govet
     - misspell
+    - unused
 
 linters-settings:
   gci:
